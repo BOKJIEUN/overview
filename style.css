@@ -6,15 +6,22 @@ body{margin: 0px; background-color: #ff5516;}
 header{width: 1300px; height: auto;
 	 margin:auto; margin-top: 30px; margin-right: 30px;}
 
-nav{position: sticky; top: 0;
+nav{position: fixed; top: 0;
 	padding-top: 30px;}
 		nav ul{margin: auto;}
 		nav ul li{list-style: none; width: auto; height: 40px;}
 		nav ul li a{text-decoration: none; color: #000;
 					font-size: 30px; font-family:'Work Sans', sans-serif;
 					font-weight: 700;}
-		nav ul li a:hover{color: #c6c6c6; transition: all 0.5s;}
-
+		nav ul li a:hover{color: #c6c6c6;text-decoration:underline; transition: all 0.5s;}
+footer{border-top:2px solid black; margin:30px; text-align: center;}
+	h2{font-family: 'work Sans', sans-serif;
+		font-weight: 800; font-size: 27px;}
+	.f-1{font-family: 'work Sans', sans-serif;
+		font-weight: 800; font-size: 21px; word-break: keep-all;
+		line-height: 1.5; word-spacing: 0.5px; letter-spacing: -0.7px;}
+	.f-2{font-family: 'work Sans', sans-serif; font-weight: 500; font-size: 17px;
+			word-spacing: 0.5px; letter-spacing: -0.7px;}
 
 section{margin-bottom: 150px;}
 	.row{width: 1327px; height: 440px; margin:auto; margin-right: 30px;
@@ -57,5 +64,13 @@ section{margin-bottom: 150px;}
   	.hover:hover{transform: scale(1.2); filter: contrast(1.5);
   		transition: all 0.3s;}
 
+  	.flex{width: 1460px; height: auto; margin-right: 30px;
+  		margin-top: 70px;
+  		display: flex;}
+  	h1{margin:auto; margin-bottom: 20px; font-family: 'work Sans', sans-serif;
+		font-weight: 800; font-size: 40px;}
+	.maintext{margin: auto; font-family: 'work Sans', sans-serif;
+	font-weight: 600;font-size: 21px;word-break: keep-all;
+	line-height: 1.27;}
 
 img{display: block;width: 100%;}
